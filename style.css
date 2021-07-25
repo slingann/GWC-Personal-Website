@@ -1,0 +1,148 @@
+/* STYLE SECTIONING TAGS */
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+/* STYLE TEXT */
+
+header {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+main {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p {
+  line-height: 26px;
+}
+
+button {
+  background-image: linear-gradient(to bottom, #FEC5BB, #FEC89A);
+  padding: 10px;
+  border-radius: 22px;
+  border-width: 0px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+button a:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+a:hover {
+  color: orangered;
+}
+
+#spotifyBlurb {
+  padding-bottom: 50%;
+}
+
+/* STYLE IMAGES */
+
+img {
+  max-width: 45%;
+  border-radius: 15px;
+  border: 4px solid #FDA85D;
+  margin: 5px;
+}
+
+#placeHolderPic {
+  max-width: 80%;
+}
+
+#violinPic {
+  max-height: 600px;
+}
+
+iframe {
+  border-radius: 15px;
+  max-width: 70%;
+}
+
+.project {
+  max-width: 40%;
+}
+
+/* STYLE NAV BAR */
+
+nav {
+  background-image: linear-gradient(to bottom,#FEC5BB, #FEC89A);
+}
+
+.navBarList {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.navListItem {
+  display: inline;
+}
+
+.navListItem .navPage {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  padding: 6px;
+  border-radius: 25px;
+}
+
+.navListItem .navPage:hover {
+  background-color: white;
+}
+
+/* ALIGNMENT AND LAYOUT */
+
+.leftBox {
+  float: left;
+  width: 45%;
+  display: block;
+}
+
+.rightBox {
+  float: right;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#connectAndImage {
+  text-align: center;
+}
+
+.projectInfo {
+  margin: 5%;
+}
+
+.projectInfo p {
+  max-width: 50%;
+  float: right;
+  padding-top: 2%;
+}

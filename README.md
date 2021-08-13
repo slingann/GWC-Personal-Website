@@ -6,7 +6,4 @@ This is my Personal Website for the 2021 Girls Who Code Virtual Summer Immersion
 *All images of myself and my projects are owned by me!*
 
 ### 🛠 Made With
-- `Replit (IDE)`
-- HTML
-- CSS
-- JavaScript
+`Replit (IDE)` `HTML` `CSS` `JavaScript`
